@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<head>
+<meta charset="UTF-8">
+<title>Веб-Анкета</title>
+<style>
+label {
+    display: block;
+    margin-top: 10px;
+    }
+html {
+    display: table;
+    margin: auto;
+}
+</style>
+</head>
+<body bgcolor="#b1b5e">
+<h1 align="center">Веб-Анкета</h1>
+<form id="musician-form">   
+<label for="name">Имя:</label>
+<input type="text" id="name" required>
+<label>Выберите свой любимый музыкальный стиль:</label>
+<label for="rock">Rock</label>
+<input type="radio" id="rock" name="musicStyle" value="Rock">
+<label for="pop">Pop</label>
+<input type="radio" id="pop" name="musicStyle" value="Pop">
+<label for="jazz">Jazz</label>
+<input type="radio" id="jazz" name="musicStyle" value="Jazz">
+<label for="classical">Classical</label>
+<input type="radio" id="classical" name="musicStyle" value="Classical">
+ <br>
+<label>Выберите инструмент, на котором вы играете:</label>
+<label for="guitar">Гитара</label>
+<input type="checkbox" id="guitar" name="instrument" value="Guitar">
+<label for="piano">Пианино</label>
+<input type="checkbox" id="piano" name="instrument" value="Piano">
+<label for="drums">Драма</label>
+<input type="checkbox" id="drums" name="instrument" value="Drums">
+<label for="violin">Скрипка</label>
+<input type="checkbox" id="violin" name="instrument" value="Violin">
+<br>
+<button type="submit">Отправить</button>
+</form>
+</body>
+</html>
+
